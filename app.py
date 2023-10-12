@@ -69,7 +69,7 @@ def criar_tabela_e_adicionar_dados():
 criar_tabela_e_adicionar_dados()
 
 # Função para listar todas as criptos do banco de dados
-@app.route('/criptos/', methods=['GET'])
+@app.route('/api/criptos/', methods=['GET'])
 def listar_criptos():
     # Conectar ao banco de dados
     conn = sqlite3.connect('database.db')
@@ -93,7 +93,7 @@ def listar_criptos():
     return jsonify(criptos_list)
 
 # Função para adicionar um voto pelo ID no banco de dados
-@app.route('/criptos/votar/<int:id>', methods=['POST'])
+@app.route('/api/criptos/votar/<int:id>', methods=['POST'])
 def adicionar_voto(id):
     # Conectar ao banco de dados
     conn = sqlite3.connect('database.db')
