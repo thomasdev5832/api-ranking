@@ -16,6 +16,8 @@
     <br> 
 </p>
 
+---
+
 ### 📝 Índice
 
 - [Pré-requisitos](#pre)
@@ -42,7 +44,7 @@ git clone https://github.com/thomasdev5832/api-ranking
 ```
 cd api-ranking
 ```
-##### Configuração do Ambiente Virtual (Opcional, mas recomendado):
+#### Configuração do Ambiente Virtual (Opcional, mas recomendado):
 1. Crie um ambiente virtual para isolar as dependências do projeto. No diretório do projeto, execute:
 ```
 python -m venv venv
@@ -56,13 +58,13 @@ python -m venv venv
 ```
 source venv/bin/activate
 ```
-##### Instalação de Dependências: 
+#### Instalação de Dependências: 
 1. Instale as dependências (requirements.txt) do projeto usando o `pip`:
 ```
 pip install -r requirements.txt
 ```
 
-##### Configuração do Banco de Dados:
+#### Configuração do Banco de Dados:
 1. Certifique-se de ter o SQLite instalado
 - [SQLite Download](https://www.sqlite.org/download.html)
 2. Como o banco de dados é SQLite, quando o projeto for executado, o arquivo de banco de dados 'database.db' será criado na raiz do projeto.
@@ -81,7 +83,7 @@ python3 app.py
 2. O aplicativo estará disponível em http://127.0.0.1:5000/. 
  Acesse esta URL em um navegador para testar a API localmente.
 
-##### Teste da API:
+#### Teste da API:
 1. Use ferramentas como [Postman](https://www.postman.com/), [Insomnia](https://insomnia.rest/) ou o próprio navegador para enviar requisições à API e verificar se está funcionando corretamente.
 
 ---
@@ -94,7 +96,7 @@ O retorno de dados da API será via `JSON`.
 `Content-Type: application/json.`
 
 
-##### - Listar Criptomoedas [GET /api/criptos/]
+#### - Listar Criptomoedas [GET /api/criptos/]
 
 + Response 200 (application/json)
   + Atributos
@@ -103,7 +105,7 @@ O retorno de dados da API será via `JSON`.
     - votos: 111 (number) - Número de votos da criptomoeda
 
 
-##### - Adicionar Voto [POST /api/criptos/votar/{id}]
+#### - Adicionar Voto [POST /api/criptos/votar/{id}]
 
 + Parameters
   + id: 1 (number, path) - ID da criptomoeda que receberá o voto
@@ -127,6 +129,7 @@ O retorno de dados da API será via `JSON`.
 
 ---
 
+<p align="center">
 ✍️ [Gabriel Thome](https://github.com/thomasdev5832/) 
 📝[MIT License](https://opensource.org/license/mit/) 
-
+</p>
