@@ -129,7 +129,7 @@ O retorno de dados da API será via `JSON`.
 
 ---
 
-<p align="center">
+<div align="center">
 
 ✍️ [Gabriel Thome](https://github.com/thomasdev5832/) 
 
@@ -137,4 +137,4 @@ O retorno de dados da API será via `JSON`.
 
 📝[MIT License](https://opensource.org/license/mit/) 
 
-</p>
+</div>
