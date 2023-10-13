@@ -93,6 +93,7 @@ python3 app.py
 **Content-Type**
 
 O retorno de dados da API será via `JSON`.
+
 `Content-Type: application/json.`
 
 
