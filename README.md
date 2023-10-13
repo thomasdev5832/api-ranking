@@ -2,7 +2,7 @@
   <a href="" rel="noopener">
 </p>
 
-<h3 align="center">Crypto Ranking API</h3>
+<h2 align="center">Crypto Ranking API</h2>
 
 <div align="center">
 
@@ -16,17 +16,17 @@
     <br> 
 </p>
 
-#### 📝 Índice
+### 📝 Índice
 
 - [Pré-requisitos](#pre)
 - [Execução](#execucao)
 - [Recursos da API](#recursos)
-- [Stack(tecnologias)](Stack)
+- [Stack(tecnologias)](#stack)
 
-#### 🏁 Intro <a name = "intro"></a>
+### 🏁 Intro <a name = "intro"></a>
 Estas instruções fornecerão uma cópia do projeto em funcionamento em sua máquina local para fins de desenvolvimento e testes.
 
-#### Pré-requisitos: <a name = "pre"></a>
+### Pré-requisitos: <a name = "pre"></a>
 
 Para fazer uma cópia do projeto em sua máquina local para fins de desenvolvimento e teste, você precisará seguir alguns passos.
 
@@ -67,7 +67,7 @@ pip install -r requirements.txt
 - [SQLite Download](https://www.sqlite.org/download.html)
 2. Como o banco de dados é SQLite, quando o projeto for executado, o arquivo de banco de dados 'database.db' será criado na raiz do projeto.
 
-#### Execução <a name = "execucao"></a>
+### Execução <a name = "execucao"></a>
 
 1. Execute o aplicativo Flask:
 - No Windows:
@@ -78,7 +78,7 @@ python app.py
 ```
 python3 app.py
 ```
-2. O aplicativo estará disponível em http://127.0.0.1:5000/
+2. O aplicativo estará disponível em http://127.0.0.1:5000/. 
  Acesse esta URL em um navegador para testar a API localmente.
 
 ##### Teste da API:
@@ -86,9 +86,10 @@ python3 app.py
 
 ---
 
-#### 🚀 Recursos da API <a name="recursos"></a>
+### 🚀 Recursos da API <a name="recursos"></a>
 
 **Content-Type**
+
 O retorno de dados da API será via `JSON`.
 `Content-Type: application/json.`
 
@@ -115,8 +116,9 @@ O retorno de dados da API será via `JSON`.
   + Atributos
     - error: ID não encontrado (string) - Mensagem de erro quando o ID não é encontrado
 
+---
 
-#### ⛏️ Stack <a name = "stack"></a>
+### ⛏️ Stack <a name = "stack"></a>
 
 - [SQLite](https://www.sqlite.org/index.html) - Database
 - [Python](https://www.python.org/) - Programming Language
