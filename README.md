@@ -130,6 +130,11 @@ O retorno de dados da API será via `JSON`.
 ---
 
 <p align="center">
+
 ✍️ [Gabriel Thome](https://github.com/thomasdev5832/) 
+
+<br />
+
 📝[MIT License](https://opensource.org/license/mit/) 
+
 </p>
